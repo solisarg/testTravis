@@ -4,3 +4,10 @@ services:
 script:
 - docker build -t solisarg/testtravis .
 - docker images solisarg/testtravis
+before_deploy:
+  -docker login -u solisarg -p Bebotita69
+deploy:
+  provider: script
+  script: docker push solisarg/node
+  on:
+    branch: master
