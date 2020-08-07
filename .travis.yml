@@ -8,6 +8,6 @@ before_deploy:
   - docker login -u solisarg -p Bebotita69
 deploy:
   provider: script
-  script: docker push solisarg/node
+  script: docker push solisarg/testtravis
   on:
     branch: master
