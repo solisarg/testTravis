@@ -1,2 +1,2 @@
-# node-docker
-Simple node and express docker 
+# node-docker-travis
+Test travis integration
