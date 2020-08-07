@@ -2,5 +2,5 @@ sudo: required
 services:
   - docker
 script:
-- docker build -t solisarg/node .
-- docker images solisarg/node
+- docker build -t solisarg/testTravis .
+- docker images solisarg/testTravis
